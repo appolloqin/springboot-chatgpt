@@ -6,11 +6,11 @@ If you like this project, please give it a Star. If you've come up with more use
 > **Note**
 - 懒得看项目代码？输入任意用户名登录
 <div align="center">
-<img src="https://github.com/appolloqin/springboot-chatgpt/blob/main/docs/images/login.png" width="700" >
+<img src="https://github.com/appolloqin/springboot-chatgpt/blob/main/docs/images/login.png" width="600" >
 </div>
 - 输入内容回车效果
 <div align="center">
-<img src="https://github.com/appolloqin/springboot-chatgpt/blob/main/docs/images/home.png" width="700" >
+<img src="https://github.com/appolloqin/springboot-chatgpt/blob/main/docs/images/home.png" width="600" >
 </div>
 
 ## 直接运行 (Windows, Linux or MacOS)
@@ -44,6 +44,6 @@ mvn clean package -DskipTests -e
 ### 5. 运行
 ```sh
 cd target
-mvn clean package -DskipTests -e
+java -jar springboot-chatgpt-0.0.1-SNAPSHOT.jar
 ```
 
